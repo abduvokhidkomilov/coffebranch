@@ -268,7 +268,7 @@ main {
   font-family: var(--secondary-font-family);
   font-size: var(--h2-size);
   line-height: var(--h2-line-height);
-  margin-bottom: 3.2rem;
+  
 }
 .prodact__text {
   text-align: center;
@@ -297,9 +297,7 @@ main {
     margin-bottom: 5.6rem;
 
 }
-.img {
-    padding-top:4.5rem;
-}
+
 
 .prodact__item-title {
   font-family: var(--secondary-font-family);
