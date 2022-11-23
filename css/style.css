@@ -393,6 +393,7 @@ main {
 .footer__list {
   display: flex;
   gap: 3.2rem;
+  margin-left: -10.3rem;
 }
 .footer__link {
   font-family: var(--navbar-font-family);
