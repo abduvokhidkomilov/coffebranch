@@ -340,4 +340,8 @@ main {
   display: flex;
   gap: 2.4rem;
 }
+.footer__icon:active svg path {
+  fill:var(--pale-orange)
+
+}
 
