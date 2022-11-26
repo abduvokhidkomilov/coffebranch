@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>coffeerosotor</title>
     <link rel="stylesheet" href="./minifier css/normalize.css" />
-    <link rel="stylesheet" href="./minifier css/minifier.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- header -->
@@ -15,7 +15,7 @@
         <a class="header__logo-link" href=""
           ><img class="header__logo" src="./images/svg/co.svg" alt="site logo"
         /></a>
-        <nav class="navbar">
+        <nav class="navbar hidden">
           <ul class="navbar__list">
             <li class="navbar__item">
               <a href="./index.html" class="navbar__link">HOME</a>
@@ -28,6 +28,9 @@
             </li>
           </ul>
         </nav>
+        <button class="header__btn ">
+          <img src="./images/svg/menu mobila.svg" alt="">
+        </button>
       </div>
     </header>
     <!-- Main -->
@@ -38,11 +41,13 @@
           <div class="hero__wrapper">
             <div class="text__wrap">
               <h1 class="hero__wrapper-title">Great coffee made simple.</h1>
-              <p class="hero__wrapper-text">
-                Start your mornings with the world’s best coffees. Try our
-                expertly curated artisan coffees from our best roasters
-                delivered directly to your door, at your schedule.
-              </p>
+              <div class="text__wrapper">
+                <p class="hero__wrapper-text">
+                  Start your mornings with the world’s best coffees. Try our
+                  expertly curated artisan coffees from our best roasters
+                  delivered directly to your door, at your schedule.
+                </p>
+              </div>
               <a class="hero__wrapper-btn" href="">Create your plan</a>
             </div>
           </div>
@@ -58,11 +63,13 @@
                 src="./images/png/expresso.png"
                 alt=""
               />
-              <h2 class="our_collection__title">Gran Espresso</h2>
+              <div class="our_collection__wrapper">
+                <h2 class="our_collection__title">Gran Espresso</h2>
               <p class="our_collection__about">
                 Light and flavorful blend with cocoa and black pepper for an
                 intense experience.
               </p>
+              </div>
             </li>
             <li class="our_collection__item">
               <img
@@ -70,11 +77,13 @@
                 src="./images/png/planalto.png"
                 alt=""
               />
+             <div class="our__collection__wrapper">
               <h2 class="our_collection__title">Planalto</h2>
               <p class="our_collection__about">
                 Brazilian dark roast with rich and velvety body, and hints of
                 fruits and nuts.
               </p>
+             </div>
             </li>
             <li class="our_collection__item">
               <img
@@ -82,11 +91,13 @@
                 src="./images/png/piccolo.png"
                 alt=""
               />
-              <h2 class="our_collection__title">Piccollo</h2>
+              <div class="our_colection__wrapper">
+                <h2 class="our_collection__title">Piccollo</h2>
               <p class="our_collection__about">
                 Mild and smooth blend featuring notes of toasted almond and
                 dried cherry.
               </p>
+              </div>
             </li>
             <li class="our_collection__item">
               <img
@@ -94,17 +105,19 @@
                 src="./images/png/danca.png"
                 alt=""
               />
+             <div class="our_collection__wrapper">
               <h2 class="our_collection__title">Danche</h2>
               <p class="our_collection__about">
                 Ethiopian hand-harvested blend densely packed with vibrant fruit
                 notes.
               </p>
+             </div>
             </li>
           </ul>
         </div>
       </section>
       <!-- section three -->
-      <section class="prodacts">
+      <!-- <section class="prodacts">
         <div class="container">
           <div class="prodact__wrapper">
             <div class="prodact__about">
@@ -156,9 +169,9 @@
             </ul>
           </div>
         </div>
-      </section>
-      <!-- section fo -->
-      <section class="works">
+      </section> -->
+      <!-- section fo --> 
+      <!-- <section class="works">
         <div class="container">
           <div class="wrapper__wor">
             <div class="works__wrapper">
@@ -206,10 +219,10 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
     </main>
     <!-- footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <a href="" class="footer__logop-link"
           ><img
@@ -237,6 +250,6 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="#FEFCF7" fill-rule="evenodd" d="M12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0Zm0 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069ZM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm4.965-10.405a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001Z" clip-rule="evenodd"/></svg></a>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
