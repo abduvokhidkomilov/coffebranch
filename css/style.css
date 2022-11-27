@@ -484,6 +484,11 @@ main {
   }
   .header__btn {
     display: block;
+    
+  }
+  .header__btn img {
+   
+    position: fixed;
   }
   .hidden {
     display: none;
