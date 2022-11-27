@@ -601,7 +601,7 @@ main {
     --h2-size:3.2rem
   }
   .prodacts .container {
-    height: 150rem;
+    height: 130rem;
   }
   .container {
     padding: 0px 3.9rem;
@@ -644,7 +644,7 @@ main {
 
   }
   .prodacts .container {
-      height: 155rem;
+      height: 160rem;
       margin: 0px;
       margin-bottom: 22rem;
     
@@ -667,7 +667,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    
   }
   .prodact__item-wrapper {
     text-align: center;  
