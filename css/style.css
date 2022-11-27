@@ -644,7 +644,7 @@ main {
 
   }
   .prodacts .container {
-      height: 155rem;
+      height: 160rem;
       margin-bottom: 17rem;
     
 
@@ -681,6 +681,7 @@ main {
 }
 
 @media (max-width:360px) {
+  
   .prodact__item-text {
     width: 180px;
   }
