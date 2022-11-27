@@ -500,7 +500,7 @@ main {
     --h1-size: 4.8rem;
   }
   .hero__wrapper {
-    height: 50rem;
+    height: auto;
     padding: 10.4rem 5.8rem;
     transition: background-image 0.3s;
     background-image: url(../images/jpg/Bitmap.jpg);
@@ -644,8 +644,8 @@ main {
 
   }
   .prodacts .container {
-      height: 160rem;
-      margin-bottom: 17rem;
+      height: 155rem;
+      margin-bottom: 22rem;
     
 
   }
