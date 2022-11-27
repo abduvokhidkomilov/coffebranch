@@ -645,6 +645,7 @@ main {
   }
   .prodacts .container {
       height: 155rem;
+      margin: 0px;
       margin-bottom: 22rem;
     
 
@@ -659,6 +660,7 @@ main {
     width: 100%;
     grid-template-columns: 1fr;
     background-size: 100%;
+    margin-bottom: 12rem;
   }
   .prodact__item {
     width: 100%;
